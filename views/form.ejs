@@ -7,10 +7,11 @@
   <body>
     <h1><%= title %></h1>
     <form method="POST" action="/new">
-      <label for="name"> Your name: </label>
-      <input id="name" type="text" />
       <label for="message"> Message: </label>
-      <input id="message" type="text" />
+      <input id="message" name="message" type="text" />
+      <label for="name"> Your name: </label>
+      <input id="name" name="name" type="text" />
+      <button>Submit</button>
     </form>
   </body>
 </html>
