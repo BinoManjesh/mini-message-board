@@ -5,6 +5,8 @@ body {
 
 a {
   color: #00b7ff;
+  margin: 24px 0;
+  display: block;
 }
 
 p {
