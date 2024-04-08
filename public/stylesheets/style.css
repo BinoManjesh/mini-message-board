@@ -30,3 +30,10 @@ p {
 .message > :nth-child(1) {
   align-self: flex-start;
 }
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: start;
+  gap: 24px;
+}
