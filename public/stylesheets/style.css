@@ -4,5 +4,29 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+p {
+  margin: 0;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.message {
+  box-shadow: 0 0 5px;
+  border-radius: 10px;
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.message > :nth-child(1) {
+  align-self: flex-start;
 }
